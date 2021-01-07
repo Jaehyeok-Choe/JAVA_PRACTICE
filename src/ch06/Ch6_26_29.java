@@ -14,14 +14,14 @@ public class Ch6_26_29 {
 }
 
 class MyMath3{
-	long a, b;
+	long a, b;	// iv
 	
 	long add() {	// 인스턴스메서드
-		return a + b;
+		return a + b;	// iv
 	}
 	
 	static long add(long a, long b) {	// 클래스메서드(static 메서드)
-		return a + b;
+		return a + b;	// lv
 	}
 	
 }
